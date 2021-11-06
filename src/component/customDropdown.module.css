@@ -1,0 +1,105 @@
+.p-dropdown-heading {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    color: #4F4F4F;
+    margin-bottom: 6px;
+}
+
+.div-dropdown {
+    height: 56px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    border: 1px solid #828282;
+    border-radius: 12px;
+    padding: 0 14px;
+    align-items: center;
+}
+
+.p-dropdown-icon {
+    color: #828282;
+    margin-right: 10px;
+}
+
+.div-dropdown-outer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-grow: 1;
+    align-items: center;
+    cursor: pointer;
+}
+
+.p-dropdown {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #828282;
+}
+
+.p-dropdown-button {
+    color: #828282;
+    background: #E0E0E0;
+    border-radius: 4px;
+    padding: 2px;
+    font-size: 20px;
+}
+
+.div-options {
+    position: absolute;
+    display: none;
+    z-index: 1;
+    width: 100%;
+    background: white;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+}
+
+.div-option {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.p-option {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #505050;
+}
+
+@media (max-width: 1000px) {
+    .p-dropdown-heading {
+        font-size: 10px;
+        line-height: 12px;
+    }
+
+    .div-dropdown {
+        height: 40px;
+        padding: 0 12px;
+    }
+
+    .p-dropdown-icon {
+        font-size: 16px;
+    }
+
+    .p-dropdown {
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    .p-dropdown-button {
+        font-size: 16px;
+    }
+
+    .p-option {
+        font-size: 12px;
+        line-height: 15px;
+    }
+}
